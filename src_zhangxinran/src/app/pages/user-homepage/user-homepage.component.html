@@ -1,0 +1,25 @@
+<nav class="navbar" role="navigation" style="background-color: #607D8B;">
+  <ul class="nav nav-pills nav-justified"> 
+    <!-- <li style="text-align:center;" *ngFor="let userMenuEach of userMenu" 
+    [class.selected]="userMenuEach === selectedMenu"
+    (click)="onSelect(userMenuEach)">
+      <span style="color: #DDD">{{userMenuEach.title}}</span>
+    </li> -->
+    <li [routerLink]="['/IPOs']">IPOs</li>
+    <li [routerLink]="['/compareCompany']">Compare Company</li>
+    <li [routerLink]="['/optional-page']">Compare Sectors</li>
+    <li [routerLink]="['/optional-page']">Other</li>
+    <li [routerLink]="['/changepwd']">Change Password</li>
+  </ul>
+</nav>
+
+<!-- <div *ngIf="selectedMenu">
+  <h2>{{selectedMenu.title | uppercase}} Details</h2>
+  <div>
+    <label>name:
+      <input [(ngModel)]="selectedMenu.title" placeholder="name"/>
+    </label>
+  </div>
+</div>
+
+<br> -->

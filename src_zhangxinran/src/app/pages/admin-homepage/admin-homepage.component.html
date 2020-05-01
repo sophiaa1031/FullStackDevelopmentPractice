@@ -1,0 +1,26 @@
+<nav class="navbar" role="navigation" style="background-color: #607D8B;">
+  <ul class="nav nav-pills nav-justified"> 
+    <!-- <li style="text-align:center;" *ngFor="let adminMenuEach of adminMenu" 
+    [class.selected]="adminMenuEach === selectedMenu"
+    (click)="onSelect(adminMenuEach)">
+      <span style="color: #DDD">{{adminMenuEach.title}}</span>
+    </li> -->
+    <li [routerLink]="['/import-Excel']">Import Data</li>
+    <li [routerLink]="['/admin-manage-company']">Manage Company</li>
+    <li [routerLink]="['/optional-page']">Manage Exchange</li>
+    <li [routerLink]="['/optional-page']">Update IPO details</li>
+    <li [routerLink]="['/changepwd']">Change Password</li>
+  </ul>
+</nav> 
+
+<!-- <div *ngIf="selectedMenu">
+  <h2>{{selectedMenu.title | uppercase}} Details</h2>
+  <div>
+    <label>name:
+      <input [(ngModel)]="selectedMenu.title" placeholder="name"/>
+    </label>
+  </div> 
+</div>
+
+<br> --> 
+

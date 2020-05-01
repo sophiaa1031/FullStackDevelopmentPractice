@@ -1,0 +1,4 @@
+.navbar li:hover {
+    background-color:rgb(126, 163, 182);
+    height: 48px;
+  }

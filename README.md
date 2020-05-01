@@ -1,4 +1,7 @@
-# FullStackDevelopmentPractice
-TECHADEMY Stackthon learning program
+# The first milestone:
 
-a two-month program
+ /1 Design.pptx
+
+# The second milestone (code):
+
+ /src_zhangxinran
